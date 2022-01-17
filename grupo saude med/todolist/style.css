@@ -1,0 +1,228 @@
+
+body {
+    margin: 0;
+  }
+  
+  
+  .app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: 100vh;
+  }
+  
+  .todo-list {
+    background-color: #eef9ff;
+    font-family: "Space Mono", monospace;
+    padding: 50px;
+    min-width: 400px;
+    min-height: 300px;
+    border-radius: 13px;
+  }
+  
+  .title {
+    border-bottom: 1px solid rgba(246, 241, 209, 0.5);
+    font-size: 1.5rem;
+    font-family: "BioRhyme", serif;
+    color: #080808;
+  }
+  
+  .form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .form-input, .form-button {
+    border-radius: 0;
+    padding: 0.75rem;
+    font-size: 0.75rem;
+    text-align:left;
+    width: auto;
+  }
+  
+  .form-input {
+    outline: none;
+    background-color: #f6f6f6;
+    border-color: rgba(32, 32, 32, 0.1);
+    padding: 0.75rem;
+    text-align:left;
+    width: auto;
+  }
+  
+  .form-button {
+    border: 1px;
+    background: #f6f6f6;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 0.25rem;
+  }
+  
+  .form-button:hover {
+    border: 5px;
+    color: #f6f6f6;
+    background: #89d7fe;
+  }
+  
+/*asdasdsadasdsadsadasdsadsad*/
+  
+  body {
+    margin: 0;
+  }
+  
+  .app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: 100vh;
+  }
+  
+  .todo-list {
+    background-color: #eef9ff;
+    font-family: "Space Mono", monospace;
+    padding: 30px 40px;
+    min-width: 400px;
+    min-height: 300px;
+    border-radius: 13px;
+    margin: 50px auto;
+   box-shadow: 0px 3px 6px rgba(19, 19, 19, 0.3);
+  }
+
+  .todo-list img{
+    display: block;
+    position: relative;
+    max-width: 90px;
+    margin: auto;   
+  }
+  
+  .title {
+    border-bottom: 1px solid rgba(246, 241, 209, 0.5);
+    font-size: 1.5rem;
+    font-family: "BioRhyme", serif;
+    color: #080808;
+    margin: 50px ;
+    text-align: center;
+  }
+
+  hr {
+    width: auto;
+    border: 1px solid #d4d4d4;
+    border-radius: 3px;
+  }
+  
+  .form {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto 50px;
+    padding: auto;
+    width: 100%;
+  }
+
+  .form-input, .form-button {
+    border-radius: 0;
+    padding: 0.75rem;
+    font-size: 15px;
+    text-align: left;
+    margin: auto;
+  }
+  .form-input {
+    position: relative;
+    outline: none;
+    background-color: #f6f6f6;
+    border-color: rgba(32, 32, 32, 0.1);
+    padding: 0 100px;
+    text-align: left;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .form-button {
+    border: 2px;
+    color: #f6f6f6;
+    background: #015b87;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 0.25rem;
+    border-radius: 3px;
+  }
+  .form-button:hover {
+    border: 5px;
+    color: #f6f6f6;
+    background: #89d7fe;
+  }
+  
+  .list {
+    padding: 0;
+    list-style: none;
+    width: 100%;
+  }
+  
+  .task {
+    background-color: #89d7fe;
+    color: #4c4c4c;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    padding: 1rem 3rem;
+    border-radius: 9px;
+    box-shadow: 0px 2px 4px rgba(19, 19, 19, 0.3);
+  }
+
+  .task:hover {
+    position: relative;
+    top: -3px;
+  }
+  
+  .check-button, .delete-button {
+    background-color: #f6f6f6;
+    border: none;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 0px 20px;
+    font-size: 15px;
+    margin: 0px;
+  }
+
+  .delete-button {
+    background-color: #2a2a2a;
+    color: #f6f6f6;
+    border: none;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 0px 20px;
+    font-size: 15px;
+    margin: 0px;
+  }
+  
+  .task.done .check-button {
+    background-color: #015b87;
+    color: #f6f6f6;
+  }
+  
+  .check-icon {
+    display: block;
+    padding: 1px;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-radius: 50%;
+  }
+  
+  .task.done .check-icon {
+    background-color: #0B2027;
+  }
+  
+  .content {
+    margin: 0;
+  }
+
+  
+  .task.done .content {
+    text-decoration: line-through;
+  }
+  
+  /*# sourceMappingURL=style.css.map */
